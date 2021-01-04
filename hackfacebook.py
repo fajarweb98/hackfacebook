@@ -15,10 +15,8 @@ if platform.python_version().split('.')[0] != '2':
 	sys.exit()
 import cookielib,re,urllib2,urllib,threading
 try:
-  import mechanize
-except ImportError:
-	cetak('!m[!] SepertiNya Module !cmechanize!m belum di install...\n!h[!] pip2 install mechanize')
-	sys.exit()
+  
+
 br = 0
 log = 0
 id_bteman = []
